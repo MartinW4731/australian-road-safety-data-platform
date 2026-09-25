@@ -1,0 +1,31 @@
+# Python virtual environments
+.venv/
+.airflow-venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Raw / local data
+data/raw/
+
+# Airflow local files
+airflow.db
+airflow.cfg
+logs/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# macOS / VS Code
+.DS_Store
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
