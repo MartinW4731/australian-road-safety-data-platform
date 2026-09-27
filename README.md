@@ -12,6 +12,23 @@ The pipeline ingests raw CSV datasets, cleans and validates the data, models ana
 
 ![Australian Road Safety Data Platform Architecture](docs/architecture.png)
 
+## Interactive Dashboard
+
+An interactive Databricks SQL dashboard was built on top of the Gold layer to explore road crash patterns and safety conditions.
+
+Key insights include:
+- Total crashes, fatal crashes, and road fatalities
+- Annual crash trends from 2012–2025
+- Crash distribution by hour of day
+- Road surface and atmospheric condition analysis
+- Fatal crash rates across different environmental conditions
+
+![Australian Road Safety Dashboard](docs/dashboard-overview.png)
+
+### Live Dashboard
+
+[View the interactive Databricks dashboard](https://dbc-8d545004-61e9.cloud.databricks.com/dashboardsv3/01f1b95d5af412f6bb7234c082529979/published?o=7474657924170951)
+
 ### Pipeline
 
 Raw CSV Data  
